@@ -1,0 +1,79 @@
+.testimonials-background {
+    background-color: var(--gray-100);
+    padding: 2rem;
+  }
+  
+  .testimonials {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5rem;
+  }
+  
+  .client-review {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding-right:2rem;
+  }
+  
+  
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1rem;
+  
+  }
+
+  .review-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: calc(50% - 1rem); /* Two cards per row with gap */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    
+  }
+  
+  .review-stars {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .quotes {
+    postion:absolute;
+    margin-top:-15%;
+    
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: var(--gray-700);
+    margin-bottom: 1rem;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+  }
+  
+  .client-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }
+  
+ 

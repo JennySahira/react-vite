@@ -1,0 +1,98 @@
+.subscribe {
+    background-color:var(--gray-100);
+    padding: 4rem 2rem 4rem 2rem;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.subscribe-text {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--gray-900);
+    flex:1;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex:1;
+    position:relative;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left:auto;
+}
+
+.error-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+.email-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.input-text {
+    padding-left: 35px;
+    height: 40px;
+    font-size: 0.875rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 2px 1px #E2E5F1;
+    width: 16rem;
+    font-weight: 200;
+}
+
+.input-text::placeholder {
+    color: #B4B7C9;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.subscribe-submit {
+    height: 40px;
+    font-size: 1rem;
+    background-color: var(--primary-blue);
+    color: white;
+    font-weight: 600;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 2px 1px #E2E5F1;
+    width: 7rem;
+    cursor: pointer;
+}
+
+.input-text:focus,
+.subscribe-submit:focus {
+    outline: none;
+}
+
+.input-text.input-error {
+    border: 1px solid red; /* Gör kanten röd vid fel */
+  }

@@ -1,0 +1,108 @@
+/* Dark mode - specifika variabler och anpassade stilar */
+[data-theme="darkMode"] {
+  --dark-background: var(--gray-900);
+  --text-color: #ffffff;
+  --card-background: var(--gray-800);
+  --review-card-background: rgba(255, 255, 255, 0.1);
+  --accordion-background: rgba(255, 255, 255, 0.1);
+  --custom-gradient: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%);
+}
+
+[data-theme="darkMode"] body {
+  background-color: var(--dark-background);
+  color: var(--text-color);
+}
+
+/* Använd dark mode-färger för specifika komponenter */
+[data-theme="darkMode"] .header-background {
+  background-color: var(--custom-gradient);
+}
+
+[data-theme="darkMode"] .logo,
+[data-theme="darkMode"] .features,
+[data-theme="darkMode"] .carousel-background,
+[data-theme="darkMode"] .learnmore-background,
+[data-theme="darkMode"] .testimonials-background,
+[data-theme="darkMode"] .subscribe-background,
+[data-theme="darkMode"] .contact-background {
+  color: var(--text-color);
+  background-color: var(--dark-background);
+}
+
+
+
+[data-theme="darkMode"] .myaccordion,
+[data-theme="darkMode"] .faq,
+[data-theme="darkMode"] input[type="text"],
+[data-theme="darkMode"] .testimonials-background,
+[data-theme="darkMode"] .carousel-btn,
+[data-theme="darkMode"] .arrow-button, 
+[data-theme="darkMode"] .subscribe,
+[data-theme="darkMode"] .carousel-background,
+[data-theme="darkMode"] .review-card,
+[data-theme="darkMode"] .btn-faq img,
+[data-theme="darkMode"] .contact-background {
+
+  background-color: rgba(250, 250, 250, 0.04);
+}
+
+[data-theme="darkMode"] input[type="text"],
+[data-theme="darkMode"] input[type="submit"],
+[data-theme="darkMode"] .active img,
+[data-theme="darkMode"] .myaccordion {
+  box-shadow:none;
+}
+
+
+[data-theme="darkMode"] .btn-faq,
+[data-theme="darkMode"] .nav-links a,
+[data-theme="darkMode"] .silicon-text,
+[data-theme="darkMode"] .subscribe-text,
+[data-theme="darkMode"] .client-review,
+[data-theme="darkMode"] .hero-text h1,
+[data-theme="darkMode"] .hero-text p,
+[data-theme="darkMode"] .discover-more,
+[data-theme="darkMode"] .headline h1,
+[data-theme="darkMode"] .headline p,
+[data-theme="darkMode"] .usp-content h2,
+[data-theme="darkMode"] .usp-content p,
+[data-theme="darkMode"] .transfer-text h4,
+[data-theme="darkMode"] .transfer-text p,
+[data-theme="darkMode"] .rubrik,
+[data-theme="darkMode"] h1,
+[data-theme="darkMode"] h2,
+[data-theme="darkMode"] p,
+[data-theme="darkMode"] .checklist li,
+[data-theme="darkMode"] .h2-top,
+[data-theme="darkMode"] input[type="text"]
+ {
+  color: var(--text-color);
+}
+
+[data-theme="darkMode"] .dark-mode-text {
+  color: var(--gray-700);
+}
+
+
+[data-theme="darkMode"] .contact-phone,
+[data-theme="darkMode"] .contact-chat
+ {
+border-color: rgba(250, 250, 250, 0.04);
+}
+
+[data-theme="darkMode"] .btn-faq img {
+  border: none;
+}
+
+[data-theme="darkMode"] .quotes {
+  z-index: 10;
+}
+
+[data-theme="darkMode"] .carousel-btn {
+  color:#fff;
+}
+
+[data-theme="darkMode"] .active img {
+  background-color: var(--primary-blue);
+  border: solid var(--primary-blue);
+}

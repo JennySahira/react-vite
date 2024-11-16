@@ -1,0 +1,34 @@
+/* logo */
+.logo {
+    color: white;
+}
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Ser till att logo-bilderna centreras horisontellt */
+    align-items: center; /* Centrerar vertikalt */
+    gap: 1rem;
+    max-width: 1200px; /* Anpassa max-bredden efter din layout */
+    margin: 0 auto; /* Ser till att hela .logo-sektionen centreras */
+    padding: 0 20px; /* Lägg till lite padding för att hålla avstånd från kanterna */
+    margin-top:5rem;
+}
+
+ 
+.logo img {
+    max-width: 100%; /* Anpassar till förälderens bredd, men inte större än bilden */
+    height: 6rem;
+    object-fit: contain; /* Gör att bilder behåller sitt förhållande */
+    border: solid 1px #E2E5F1; /* Lägg till kantlinje med rätt färg */
+    border-radius: 5px; /* Runda hörnen på bilderna */
+}
+
+.image-shadow {
+    box-shadow: 0 1px 3px 1px #ebebeec5; /* Lägg till skugga runt bilden */
+}
+
+/* Logo Image - Anpassad Kantlinje */
+.logoImage {
+    border: solid 1px #E2E5F1; /* Lägg till kantlinje med rätt färg */
+    border-radius: 5px; /* Runda hörnen på bilderna */
+}

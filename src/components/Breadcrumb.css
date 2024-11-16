@@ -1,0 +1,36 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Se till att det inte finns några extra marginaler som stör inriktningen */
+    padding: 0; /* Återställ padding för breadcrumb */
+    font-size: 14px;
+    color: var(--gray-600);
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: var(--gray-600);
+    margin: 0 0.5rem; /* Mellanrum mellan länkar och separatorer */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Active Breadcrumb Link */
+.breadcrumb .active-contact {
+    color: var(--primary-blue);
+    font-weight: 400;
+}
+
+.breadcrumb span {
+    color: var(--gray-600);
+}
+
+/* Home Icon */
+/* .home-icon {
+    position: absolute;
+    padding-right: 0.4rem;
+    right: 97.3%;
+    top: 11.5%;
+} */

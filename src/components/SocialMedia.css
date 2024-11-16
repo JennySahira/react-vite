@@ -1,0 +1,11 @@
+.some {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.some img {
+    width: 2rem;
+    height: 2rem;
+}

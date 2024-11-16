@@ -1,0 +1,153 @@
+/* Hero Section Layout */
+.hero {
+    max-width: 1200px; /* Samma som för Header och Breadcrumb */
+    margin: 0 auto; /* Centrera hero horisontellt */
+    padding: 0 20px; /* Anpassa efter samma padding som header och breadcrumb */
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem; /* Justera avståndet mellan texten och bilden */
+    height: auto;
+    align-items: center; /* Vertikal centrering */
+    margin-top: 2rem; /* Justera för att få en bättre balans */
+    position: relative;
+  }
+  
+  /* Hero Text Section */
+  .hero-text {
+    flex: 1; /* Gör att textsektionen tar upp tillgängligt utrymme */
+    padding-top: 1rem;
+  }
+  
+  .hero-text h1 {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 2.75rem; /* Justera fontstorlek för att matcha designen bättre */
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2; /* Anpassa för bättre balans */
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 1rem; /* Minska fontstorleken lite för att matcha designen bättre */
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--gray-700);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Download Buttons */
+  .downloadbuttons {
+    display: flex;
+    gap: 1rem; /* Justera avståndet mellan knapparna */
+    margin-top: 1.5rem;
+    border:none;
+    outline:none;
+    text-decoration: none;
+    
+
+  }
+  
+  .download-buttons img {
+    width: 10rem; /* Justera storleken på knapparna om de är för stora */
+    height: auto;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    
+  }
+  
+.btn-appstore {
+  margin-right:1.5rem;
+}
+  .btn-appstore,
+.btn-playstore {
+  border: none; /* Ta bort eventuell kantlinje */
+  background: transparent; /* Gör knappen helt transparent */
+  padding: 0;
+  z-index: 100; /* Ta bort eventuell inre marginal */
+}
+
+.btn-appstore a,
+.btn-playstore a {
+  outline: none; /* Ta bort fokusramen */
+  border: none; /* Ta bort eventuell kantlinje */
+  text-decoration: none; /* Ingen understrykning */
+}
+
+.btn-appstore img,
+.btn-playstore img {
+  display: block; /* Tar bort utrymme runt bilden som ibland kan orsaka kantlinjer */
+  width: 10rem; /* Anpassa storleken vid behov */
+  height: auto;
+  border: none;
+  z-index: 100; /* Ta bort eventuell kantlinje runt bilden */
+}
+
+  /* Hero Image Section */
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Justera för att få bättre balans och minska storlek något */
+    height: auto;
+    object-fit: contain;
+    margin-left:5rem;
+    margin-top:1rem;
+    z-index: 10;
+  }
+  
+  /* Discover More Section */
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+  }
+  
+  .arrow-button {
+    width: 40px; /* Minska storleken något för bättre balans */
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    color:green;
+  }
+  
+  .arrow-button:hover {
+    box-shadow: 0 2px 4px 0 #090916a1;
+    transition: 0.2s; 
+  }
+  
+  .arrow-down {
+    border: solid var(--gray-800);
+    border-width: 0 0.2rem 0.2rem 0;
+    display: inline-block;
+    padding: 0.2rem;
+    transform: rotate(45deg);
+    color:green;
+  }
+  
+  .discover-more {
+    color: var(--gray-700);
+    margin-left: 1rem;
+    margin-top:2rem;
+    font-size: 5rem;
+    font-weight: 200;
+  }
+
+
+  

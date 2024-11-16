@@ -1,0 +1,8 @@
+.copywright {
+    text-align: center;
+    justify-content: center;
+    font-size: .875rem;
+    color:var(--gray-600);
+    margin-top:7rem;
+    margin-bottom:5rem;
+}

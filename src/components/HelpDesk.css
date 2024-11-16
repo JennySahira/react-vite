@@ -1,0 +1,64 @@
+.help-desk {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.contact-phone, .contact-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 0.5px #E2E5F1;
+    border-radius: 5%;
+    width: 12rem;
+    height: 10rem;
+    padding: 1.5rem;
+}
+
+.questions-1, .questions-2 {
+    padding-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--gray-700);
+}
+
+.btn-contact {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-size: 0.875rem;
+    display: inline-flex;
+    border-radius: 20%;
+    align-items: center;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.btn-contact:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.blue-contact {
+    color: #6366F1;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.green-contact {
+    color: #22C55E;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.blue-arrow, .green-arrow {
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+    width: 16px;
+    height: auto;
+}

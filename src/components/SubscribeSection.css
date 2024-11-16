@@ -1,0 +1,22 @@
+.form-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    gap:8rem;
+    padding-bottom:6rem;
+}
+
+.questions {
+    font-size: 2rem;
+    font-weight: 800;
+    color:var(--gray-900);
+    margin-top: 7rem;
+}
+
+.get-in-touch {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color:var(--gray-700);
+    margin-top: 2rem;
+}

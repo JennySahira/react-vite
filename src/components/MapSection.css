@@ -1,0 +1,52 @@
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+
+#googleMap {
+    width: 40rem;
+    height: 34rem;
+}
+
+.medcenter1,
+.medcenter2 {
+    background: white;
+    padding: 1rem;
+    
+}
+
+.medcenter {
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    margin-top:10rem;
+}
+
+.m1, .m2 {
+    font-size;1.5rem;
+    color: var(--gray-900);
+    margin-bottom:1rem;
+
+}
+
+.adress, .nr, .opnehr {
+    margin:1rem;
+}
+
+.phone-call {
+    padding-right: 1rem;
+    margin-left:-1rem
+}
+
+.pin, .clock {
+    padding-right: 1rem;
+}
+
+.sat-sun {
+    margin-left:2.2rem;
+    margin-top:0.5rem;
+
+}

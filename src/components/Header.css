@@ -1,0 +1,13 @@
+.header-background {
+  background:var(--custom-gradient);  
+}
+
+.header-container {
+  max-width: 1200px; /* Anpassa efter din layout */
+  margin: 0 auto; /* För att centrera header och breadcrumb */
+  padding: 0 20px; /* Lite inre marginal för att skapa avstånd från kanterna */
+  display: flex;
+  flex-direction: column; /* Se till att innehållet staplas vertikalt */
+  gap: 1rem; /* Lägger till avstånd mellan header och breadcrumb */
+  
+}

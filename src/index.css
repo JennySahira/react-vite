@@ -1,0 +1,50 @@
+/* Reset-stilar och globala stilar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #6366F1;
+  --gray-100: #F3F6FF;
+  --gray-500: #B4B7C9;
+  --gray-600: #9397AD;
+  --gray-700: #565973;
+  --gray-800: #33354D;
+  --gray-900: #0B0F19;
+  --custom-gradient: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%);
+  font-size: 16px;
+}
+
+body {
+  font-family: "manrope", sans-serif;
+  font-optical-sizing: auto;
+  background-color: rgb(255, 255, 255);
+  color: var(--gray-900);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+h1, h2, h4, p {
+  color: var(--gray-900);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}

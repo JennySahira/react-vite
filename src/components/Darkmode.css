@@ -1,0 +1,68 @@
+
+
+body {
+    background:white;
+}
+.dark-mode {
+    background-color: var(--gray-900); /* Mörk bakgrund för hela sidan */
+    color: white;
+}
+
+.dark-mode body {
+    background-color: var(--gray-900); /* Mörk bakgrund för hela sidan */
+    color: white;
+}
+
+.dark-mode .card1-background, .dark-mode .card2-background, .dark-mode .card3-background, .dark-mode .card4-background, .dark-mode .card5-background, .dark-mode .card6-background {
+    background-color: var(--gray-900); /* Sätt alla kort till samma mörka färg */
+}
+
+.dark-mode a {
+    color: var(--primary-blue); /* Färg på länkar i dark mode */
+}
+
+.dark-mode button {
+    background-color: var(--primary-blue); /* Beroende på din design kan du anpassa */
+    color: white;
+
+    a{
+        color:white;
+    }
+}
+
+.dark-mode img {
+    filter: brightness(0.8); /* Minska ljusstyrkan på bilder */
+}
+
+
+.dark-mode h1, .dark-mode h2, .dark-mode h4, .dark-mode p {
+    color: white;
+}
+
+.darkmode .download-buttons {
+    background: white;
+}
+
+.dark-mode .subscribe {
+    background-color: var(--gray-800);
+}
+
+.dark-mode .review-1, .dark-mode review-2 {
+    background-color: #FFFFFF;
+    opacity: 4%;
+    
+
+}
+
+.dark-mode .review, .dark-mode .name, .dark-mode .title {
+color:#FFFFF
+}
+
+.dark-mode .myaccordion {
+    opacity:4%;
+    background: white;
+
+}
+.dark-mode .btn-faq {
+    color:#FFFFFF;
+}
