@@ -4,7 +4,7 @@ import './ContactForm.css';
 function ContactForm() {
   return (
     <div className="form">
-      <h2>Get Online Consultation</h2>
+      <h2 className="contactform">Get Online Consultation</h2>
       <form>
         <label htmlFor="full-name">Full name</label>
         <input type="text" className="specialist-name" id="full-name" name="full-name" />

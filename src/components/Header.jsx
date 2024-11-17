@@ -10,20 +10,20 @@ import './Header.css';
 
 function Header(){
 
-// Definiera isDarkMode med useState
+// DarkMode skapat med hjälp av ChatGpt
 const [isDarkMode, setIsDarkMode] = useState(() => {
-  // Läs inlägget från localStorage när komponenten laddas
+  
   return localStorage.getItem('darkMode') === 'true';
 });
 
 useEffect(() => {
-  // Ställ in rätt tema när komponenten laddas baserat på localStorage
+  
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'darkMode' : 'lightMode');
 }, [isDarkMode]);
 
 const handleToggle = () => {
   setIsDarkMode(!isDarkMode);
-  localStorage.setItem('darkMode', !isDarkMode); // Spara tillståndet i localStorage
+  localStorage.setItem('darkMode', !isDarkMode); 
 };
 
   return (

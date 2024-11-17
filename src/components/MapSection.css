@@ -13,8 +13,11 @@
 
 .medcenter1,
 .medcenter2 {
-    background: white;
+   
     padding: 1rem;
+    width:auto;
+    height:auto;
+    max-width: 500px;
     
 }
 
@@ -23,10 +26,13 @@
     flex-direction: column;
     gap:3rem;
     margin-top:10rem;
+    align-items: start;
+
 }
 
+
 .m1, .m2 {
-    font-size;1.5rem;
+    font-size:1.5rem;
     color: var(--gray-900);
     margin-bottom:1rem;
 

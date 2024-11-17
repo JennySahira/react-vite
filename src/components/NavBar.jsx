@@ -7,18 +7,18 @@ import icon from '../assets/NavBar/icon.svg';
 
 function NavBar() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Läs inlägget från localStorage när komponenten laddas
+
     return localStorage.getItem('darkMode') === 'true';
   });
 
   useEffect(() => {
-    // Ställ in rätt tema när komponenten laddas baserat på localStorage
+
     document.documentElement.setAttribute('data-theme', isDarkMode ? 'darkMode' : 'lightMode');
   }, [isDarkMode]);
 
   const handleToggle = () => {
     setIsDarkMode(!isDarkMode);
-    localStorage.setItem('darkMode', !isDarkMode); // Spara tillståndet i localStorage
+    localStorage.setItem('darkMode', !isDarkMode); 
   };
 
   return (

@@ -2,7 +2,6 @@ import React from 'react';
 import Breadcrumb from './Breadcrumb';
 import ContactHero from './ContactHero';
 import MapSection from './MapSection';
-import SocialMedia from './SocialMedia';
 import NavBar from './NavBar';
 import './Contact.css';
 
@@ -17,7 +16,6 @@ function Contact() {
         </div>
         </div>
       <MapSection />
-      <SocialMedia />
     </div>
   );
 }

@@ -5,30 +5,30 @@
 .logo-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Ser till att logo-bilderna centreras horisontellt */
-    align-items: center; /* Centrerar vertikalt */
+    justify-content: center; 
+    align-items: center; 
     gap: 1rem;
-    max-width: 1200px; /* Anpassa max-bredden efter din layout */
-    margin: 0 auto; /* Ser till att hela .logo-sektionen centreras */
-    padding: 0 20px; /* Lägg till lite padding för att hålla avstånd från kanterna */
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
     margin-top:5rem;
 }
 
  
 .logo img {
-    max-width: 100%; /* Anpassar till förälderens bredd, men inte större än bilden */
+    max-width: 100%; 
     height: 6rem;
-    object-fit: contain; /* Gör att bilder behåller sitt förhållande */
-    border: solid 1px #E2E5F1; /* Lägg till kantlinje med rätt färg */
-    border-radius: 5px; /* Runda hörnen på bilderna */
+    object-fit: contain; 
+    border: solid 1px #E2E5F1; 
+    border-radius: 5px;
 }
 
 .image-shadow {
-    box-shadow: 0 1px 3px 1px #ebebeec5; /* Lägg till skugga runt bilden */
+    box-shadow: 0 1px 3px 1px #ebebeec5; 
 }
 
-/* Logo Image - Anpassad Kantlinje */
+
 .logoImage {
-    border: solid 1px #E2E5F1; /* Lägg till kantlinje med rätt färg */
-    border-radius: 5px; /* Runda hörnen på bilderna */
+    border: solid 1px #E2E5F1; 
+    border-radius: 5px; 
 }

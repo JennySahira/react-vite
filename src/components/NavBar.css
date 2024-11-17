@@ -3,8 +3,8 @@
 .topbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Justerar innehållet så att det hålls mellan start och slut */
-    padding: 1rem 0; /* Lite mer padding för att få mer utrymme */
+    justify-content: space-between; 
+    padding: 1rem 0; 
 }
 
 .silicon-text {
@@ -62,7 +62,7 @@
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
-  text-decoration: none; /* Se till att länken inte är understruken */
+  text-decoration: none; 
 }
 
 .btn-1 img {

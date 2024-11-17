@@ -4,6 +4,7 @@ import iPhone1 from '../assets/Carousel/1.svg';
 import iPhone2 from '../assets/Carousel/2.svg';
 import iPhone3 from '../assets/Carousel/3.svg';
 
+// carousel skapad med hjälp av chatGpt 
 function Carousel() {
   const images = [iPhone1, iPhone2, iPhone3];
   const [currentIndex, setCurrentIndex] = useState(0);

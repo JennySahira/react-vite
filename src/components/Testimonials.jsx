@@ -10,7 +10,6 @@ function Testimonials() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        // Hämta testimonials från ditt API
         fetch('https://win24-assignment.azurewebsites.net/api/testimonials')
             .then((response) => {
                 if (!response.ok) {

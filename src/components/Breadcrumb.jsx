@@ -1,4 +1,3 @@
-// src/components/Breadcrumb.jsx
 import React from 'react';
 import '../components/Breadcrumb.css';
 import home from '../assets/Breadcrumb/home-icon.svg';

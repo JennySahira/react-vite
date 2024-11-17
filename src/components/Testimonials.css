@@ -33,7 +33,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    width: calc(50% - 1rem); /* Two cards per row with gap */
+    width: calc(50% - 1rem);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,8 +48,8 @@
   }
   
   .quotes {
-    postion:absolute;
-    margin-top:-15%;
+    position:absolute;
+    margin-top:-3.5%;
     
   }
   

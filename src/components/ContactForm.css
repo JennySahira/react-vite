@@ -22,6 +22,9 @@
     height: 3.25rem;
     border: 1px solid #D4D7E5;
     margin-bottom: 1rem;
+    color:var(--gray-900);
+    margin-top:0.5rem;
+    
 }
 
 .specialist-submit {
@@ -47,7 +50,8 @@ input:focus {
     box-shadow: 0 1px 2px 1px #76787e;
 }
 
-h1 {
+.contactform {
     font-size: 2rem;
     font-weight: 800;
+    
 }

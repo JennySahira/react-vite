@@ -10,13 +10,13 @@ function SubscribeForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     
-    // Enkel validering av e-postformatet
+  
     if (!validateEmail(email)) {
       setError('Please enter a valid email address.');
       return;
     }
 
-    // Skicka e-post till API
+    
     fetch('https://win24-assignment.azurewebsites.net/api/forms/subscribe', {
       method: 'POST',
       headers: {
@@ -27,8 +27,8 @@ function SubscribeForm() {
       .then((response) => response.json())
       .then((data) => {
         console.log('Success:', data);
-        setEmail(''); // Töm fältet efter framgångsrik post
-        setError(''); // Rensa eventuella felmeddelanden
+        setEmail(''); 
+        setError(''); 
       })
       .catch((error) => {
         console.error('Error:', error);
@@ -36,7 +36,7 @@ function SubscribeForm() {
   };
 
   const validateEmail = (email) => {
-    // En enkel regex för att validera e-postadresser
+  
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 

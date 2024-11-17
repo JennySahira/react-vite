@@ -25,14 +25,14 @@ function Hero({ isDarkMode }) {
           <button className="btn-playstore">
             <a href="https://play.google.com/store/games?hl=en&pli=1" target="_blank" rel="noopener noreferrer"></a>
               <img
-                src={isDarkMode ? googleplayDark : googleplayLight}
+                src={isDarkMode ? googleplayDark : googleplayLight} //byte av bild i darkmode skapad med hjälp av chatGpt
                 alt="Google Play button"
               />
           </button>    
         </div>
         <div className="container">
           <a href="#target-section" className="arrow-button">
-            <img src= {isDarkMode ? chevronDark : chevronLight} alt="chevron down" />
+            <img src= {isDarkMode ? chevronDark : chevronLight} alt="chevron down" /> 
             </a>
             
           <p className="discover-more">Discover more</p>

@@ -94,5 +94,5 @@
 }
 
 .input-text.input-error {
-    border: 1px solid red; /* Gör kanten röd vid fel */
+    border: 1px solid red; 
   }

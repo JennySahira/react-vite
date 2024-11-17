@@ -3,6 +3,7 @@ import './MapSection.css';
 import pinIcon from '../assets/contact/pin.svg';
 import phoneIcon from '../assets/contact/phone.svg';
 import clockIcon from '../assets/contact/clock.svg';
+import SocialMedia from './SocialMedia';
 
 function MapSection() {
   return (
@@ -21,7 +22,8 @@ function MapSection() {
         <p className="nr"><img src={phoneIcon} className="phone-call" alt="Phone Icon" />(406) 544-0123</p>
         <p className="openhr"><img src={clockIcon} className="clock" alt="Clock Icon" />Mon – Fri: 9:00 am – 22:00 am </p><p className="sat-sun">Sat – Sun: 9:00 am – 20:00 am</p>
       </div>
-      </section>
+     <div className="socialmedia"><SocialMedia /></div>
+     </section>
     </div>
   );
 }
